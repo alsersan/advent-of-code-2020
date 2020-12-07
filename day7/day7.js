@@ -69,7 +69,7 @@ const answer = getAnswer1(colorRules, "shiny gold");
 console.log("Answer Part 1: " + answer);
 
 // PART 2
-const getAnswer2 = (data, color, referenceColor) => {
+const getAnswer2 = (data, color) => {
   let counter = 0;
   const values = data.get(color);
   if (values) {
@@ -77,11 +77,11 @@ const getAnswer2 = (data, color, referenceColor) => {
       const newColor = value.substring(2);
       const numberOfBags = parseInt(value.match(/\d+/)[0], 10);
       counter += numberOfBags;
-      counter += numberOfBags * getAnswer2(data, newColor, referenceColor);
+      counter += numberOfBags * getAnswer2(data, newColor);
     });
   }
   return counter;
 };
 
-const answer2 = getAnswer2(colorRules, "shiny gold", "shiny gold");
+const answer2 = getAnswer2(colorRules, "shiny gold");
 console.log("Answer Part 2: " + answer2);
