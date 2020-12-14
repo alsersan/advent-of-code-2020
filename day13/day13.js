@@ -1,4 +1,3 @@
-const { BADFLAGS } = require("dns");
 const fs = require("fs");
 const input = fs.readFileSync("./day13Input.txt").toString();
 
