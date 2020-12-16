@@ -71,7 +71,7 @@ When this program goes to write to memory address `42`, it first applies the bit
 <pre>
 address: 000000000000000000000000000000101010  (decimal 42)
 mask:    000000000000000000000000000000X1001X
-result:  000000000000000000000000000000<b>X110<b>1X</b>
+result:  000000000000000000000000000000<b>X110</b>1X</b>
 </pre>
 
 After applying the mask, four bits are overwritten, three of which are different, and two of which are **floating**. Floating bits take on every possible combination of values; with two floating bits, four actual memory addresses are written:
