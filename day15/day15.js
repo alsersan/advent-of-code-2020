@@ -1,10 +1,10 @@
-const testInput1 = `0,3,6`; // Answer P1: 436  |  Answer P2:
-const testInput2 = `1,3,2`; // Answer P1: 1    |  Answer P2:
-const testInput3 = `2,1,3`; // Answer P1: 10   |  Answer P2:
-const testInput4 = `1,2,3`; // Answer P1: 27   |  Answer P2:
-const testInput5 = `2,3,1`; // Answer P1: 78   |  Answer P2:
-const testInput6 = `3,2,1`; // Answer P1: 438  |  Answer P2:
-const testInput7 = `3,1,2`; // Answer P1: 1836 |  Answer P2:
+const testInput1 = `0,3,6`; // Answer P1: 436  |  Answer P2: 175594
+const testInput2 = `1,3,2`; // Answer P1: 1    |  Answer P2: 2578
+const testInput3 = `2,1,3`; // Answer P1: 10   |  Answer P2: 3544142
+const testInput4 = `1,2,3`; // Answer P1: 27   |  Answer P2: 261214
+const testInput5 = `2,3,1`; // Answer P1: 78   |  Answer P2: 6895259
+const testInput6 = `3,2,1`; // Answer P1: 438  |  Answer P2: 18
+const testInput7 = `3,1,2`; // Answer P1: 1836 |  Answer P2: 362
 const input = `16,11,15,0,1,7`;
 
 const parseInput = (input) => {
